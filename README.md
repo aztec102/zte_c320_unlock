@@ -17,7 +17,8 @@ On the OLT control board these are CLI and 10/100M ports. Additionally, you need
 
     =>  
  2. Delete the current firmware and reboot
-     => erase all
+
+    => erase all
  3. Go to ROMMON MODE again and upload the unlocked firmware for the control board
 
     => download img smxa0.mvr
@@ -26,7 +27,7 @@ On the OLT control board these are CLI and 10/100M ports. Additionally, you need
 
     => download img smxa.fw
 
- 5. We check for the presence of files and reboot the OLT without stopping the download process
+ 4. We check for the presence of files and reboot the OLT without stopping the download process
 
     => ls img
  
